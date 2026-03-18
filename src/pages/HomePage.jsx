@@ -11,6 +11,7 @@ function HomePage() {
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState("")
     const [selectedLocation, setSelectedLocation] = useState(null);
+    const [searchTerm, setSearchTerm] = useState('');
 
     useEffect(() => {
         async function fetchPsicologos() {
@@ -28,6 +29,11 @@ function HomePage() {
 
         fetchPsicologos();
     }, [])
+    const psicologosFiltrados = psicologos.filter(p =>
+        p.nome.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        p.especialidades[0].nome.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+
     return (
         <>
             <Navbar/>
@@ -38,7 +44,14 @@ function HomePage() {
                     <PsicologoMap psicologos={psicologos} selectedLocation={selectedLocation}/>
                     <div className="container mt-4">
                         <h1 className="mb-4">Encontra o teu Psicólogo</h1>
-                        <PsicologoList psicologos={psicologos} onSelectPsicologo={setSelectedLocation}/>
+                        <input
+                            type="text"
+                            className="form-control mb-4"
+                            placeholder="Pesquisar por nome ou especialidade"
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                        />
+                        <PsicologoList psicologos={psicologosFiltrados} onSelectPsicologo={setSelectedLocation}/>
                     </div>
                 </>
             )}

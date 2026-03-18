@@ -9,7 +9,7 @@ export async function getPsicologos(){
 export async function getPsicologoById(id){
     return new Promise((resolve, reject) =>{
         setTimeout(() => {
-            const psicologo = psicologos.find(p => p.id.psicologo === id);
+            const psicologo = psicologos.find(p => p.id_psicologo === id);
             if(psicologo){
                 resolve(psicologo);
             } else {
