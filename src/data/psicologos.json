@@ -1,0 +1,146 @@
+[
+  {
+    "id_psicologo": 1,
+    "nome": "Dra. Ana Ferreira",
+    "foto": "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400",
+    "sobre_mim": "Psicóloga clínica com 10 anos de experiência, especializada em perturbações de ansiedade e burnout profissional.",
+    "areas_intervencao": "Ansiedade, Depressão, Burnout",
+    "especialidades": [
+      { "id_especialidade": 1, "nome": "Psicologia Clínica" }
+    ],
+    "consultorios": [
+      {
+        "id_consultorio": 1,
+        "nome": "Consultório Lisboa Centro",
+        "endereco": "Rua Augusta, 123, Lisboa",
+        "latitude": 38.71062,
+        "longitude": -9.13775,
+        "tipo": "PRESENCIAL"
+      }
+    ]
+  },
+  {
+    "id_psicologo": 2,
+    "nome": "Dr. Ricardo Santos",
+    "foto": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400",
+    "sobre_mim": "Especialista em terapia cognitivo-comportamental com foco em perturbações de ansiedade e trauma.",
+    "areas_intervencao": "Fobias, TOC, Trauma",
+    "especialidades": [
+      { "id_especialidade": 2, "nome": "Psicoterapia Cognitivo-Comportamental" }
+    ],
+    "consultorios": [
+      {
+        "id_consultorio": 2,
+        "nome": "Consultório Cascais",
+        "endereco": "Av. Marginal, 456, Cascais",
+        "latitude": 38.69989,
+        "longitude": -9.24869,
+        "tipo": "PRESENCIAL"
+      }
+    ]
+  },
+  {
+    "id_psicologo": 3,
+    "nome": "Dra. Mariana Costa",
+    "foto": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=400",
+    "sobre_mim": "Especializada em psicologia infantil e juvenil, com vasta experiência em PHDA e dificuldades de aprendizagem.",
+    "areas_intervencao": "Desenvolvimento Infantil, PHDA, Dificuldades de Aprendizagem",
+    "especialidades": [
+      { "id_especialidade": 3, "nome": "Psicologia Infantil" }
+    ],
+    "consultorios": [
+      {
+        "id_consultorio": 3,
+        "nome": "Consultório Sintra",
+        "endereco": "Rua da República, 78, Sintra",
+        "latitude": 38.83491,
+        "longitude": -9.31647,
+        "tipo": "PRESENCIAL"
+      },
+      {
+        "id_consultorio": 4,
+        "nome": "Sessões Online",
+        "endereco": "Online",
+        "latitude": null,
+        "longitude": null,
+        "tipo": "ONLINE"
+      }
+    ]
+  },
+  {
+    "id_psicologo": 4,
+    "nome": "Dr. João Oliveira",
+    "foto": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400",
+    "sobre_mim": "Psicólogo forense com experiência em avaliação psicológica e acompanhamento de stress pós-traumático.",
+    "areas_intervencao": "Avaliação Psicológica, Mediação, Stress Pós-Traumático",
+    "especialidades": [
+      { "id_especialidade": 4, "nome": "Psicologia Forense" }
+    ],
+    "consultorios": [
+      {
+        "id_consultorio": 5,
+        "nome": "Sessões Online",
+        "endereco": "Online",
+        "latitude": null,
+        "longitude": null,
+        "tipo": "ONLINE"
+      }
+    ]
+  },
+  {
+    "id_psicologo": 5,
+    "nome": "Dra. Sofia Mendes",
+    "foto": "https://images.unsplash.com/photo-1614608682850-e0d6ed316d47?w=400",
+    "sobre_mim": "Especialista em terapia de casal e familiar, ajudando casais a melhorar a comunicação e resolver conflitos.",
+    "areas_intervencao": "Terapia de Casal, Comunicação, Conflito",
+    "especialidades": [
+      { "id_especialidade": 5, "nome": "Psicologia do Casal" }
+    ],
+    "consultorios": [
+      {
+        "id_consultorio": 6,
+        "nome": "Consultório Setúbal",
+        "endereco": "Av. Luísa Todi, 234, Setúbal",
+        "latitude": 38.52362,
+        "longitude": -8.89136,
+        "tipo": "PRESENCIAL"
+      },
+      {
+        "id_consultorio": 7,
+        "nome": "Sessões Online",
+        "endereco": "Online",
+        "latitude": null,
+        "longitude": null,
+        "tipo": "ONLINE"
+      }
+    ]
+  },
+  {
+    "id_psicologo": 6,
+    "nome": "Dr. Miguel Rodrigues",
+    "foto": "https://images.unsplash.com/photo-1537368910025-700350fe46c7?w=400",
+    "sobre_mim": "Psicólogo especializado em psicologia do desporto e performance, com experiência em acompanhamento de atletas de alta competição.",
+    "areas_intervencao": "Ansiedade de Performance, Motivação, Gestão de Stress",
+    "especialidades": [
+      { "id_especialidade": 6, "nome": "Psicologia do Desporto" }
+    ],
+    "consultorios": [
+      {
+        "id_consultorio": 8,
+        "nome": "Consultório Porto",
+        "endereco": "Rua de Santa Catarina, 112, Porto",
+        "latitude": 41.14739,
+        "longitude": -8.60652,
+        "tipo": "PRESENCIAL"
+      },
+      {
+        "id_consultorio": 9,
+        "nome": "Sessões Online",
+        "endereco": "Online",
+        "latitude": null,
+        "longitude": null,
+        "tipo": "ONLINE"
+      }
+    ]
+  }
+]
