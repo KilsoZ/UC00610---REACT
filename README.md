@@ -14,7 +14,7 @@ O tema está alinhado com o PsyFlow (projeto final UC00615) — os componentes d
 ## Funcionalidades
 
 - Mapa interativo com marcadores dos consultórios presenciais
-- Popup com nome do psicólogo e endereço ao clicar no marcador
+- Popup com foto e nome do psicólogo e endereço ao clicar no marcador
 - Clicar na foto de um psicólogo faz zoom no mapa para o seu consultório
 - Listagem de psicólogos em cards responsivos
 - Página de detalhe de cada psicólogo
