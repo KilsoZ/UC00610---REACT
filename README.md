@@ -26,6 +26,7 @@ Criar um ficheiro `.env` na raiz do projeto com o token do Mapbox:
 ```
 VITE_MAPBOX_TOKEN=pk.xxxxxxxxxxxxxxx
 ```
+https://docs.mapbox.com/api/guides/
 
 Depois:
 ```bash
