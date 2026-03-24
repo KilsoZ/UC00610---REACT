@@ -45,7 +45,7 @@ function PsicologoMap({ psicologos, selectedLocation}){
                             key={consultorio.id_consultorio}
                             longitude={consultorio.longitude}
                             latitude={consultorio.latitude}
-                            onClick={() => setPopupInfo({ ...consultorio, nomePsicologo: psicologo.nome})} // guarda consultorio clicado
+                            onClick={() => setPopupInfo({ ...consultorio, nomePsicologo: psicologo.nome, fotoPsicologo: psicologo.foto})} // guarda consultorio clicado
                         />
                     ))
             )}
@@ -57,9 +57,14 @@ function PsicologoMap({ psicologos, selectedLocation}){
                     onClose={() => setPopupInfo(null)} // fecha o popup voltando a null
                     closeOnClick={false} // impede fechar ao clicar dentro do popup
                 >
-                    <p>{popupInfo.nome}</p>
-                    <p><strong>{popupInfo.nomePsicologo}</strong></p>
-                    <p>{popupInfo.endereco}</p>
+                    <img
+                        src={popupInfo.fotoPsicologo}
+                        alt={popupInfo.nomePsicologo}
+                        style={{ width: '100%', height: '120px', objectFit: 'cover', objectPosition: 'top', borderRadius: '6px', marginBottom: '6px' }}
+                    />
+                    <p style={{ margin: '2px 0' }}>{popupInfo.nome}</p>
+                    <p style={{ margin: '2px 0' }}><strong>{popupInfo.nomePsicologo}</strong></p>
+                    <p style={{ margin: '2px 0' }}>{popupInfo.endereco}</p>
                 </Popup>
             )}
         </Map>
